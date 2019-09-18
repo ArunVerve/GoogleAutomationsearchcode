@@ -1,13 +1,9 @@
 package Googlesearch;
 
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertTrue;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Search {
@@ -31,15 +27,8 @@ public class Search {
 		vis.clear();
 		vis.sendKeys("Verve systems");
 		vis.submit();
-		
-		boolean isTheTextPresent = driver.getPageSource().contains("Verve systems");
-		assertTrue(isTheTextPresent);
-		//assertFalse(isTheTextPresent);
-		
 		driver.close();
 }
-
-	
 	
 	
 }
