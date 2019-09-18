@@ -33,20 +33,18 @@ public void OpenBrowser() throws Exception
 		driver.manage().window().maximize();
 		//driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		driver.manage().deleteAllCookies();
+		//driver.manage().deleteAllCookies();
 		driver.get("http://vis.vervesys.local/Login.aspx#");
 		
 		WebElement popup1 = driver.findElement(By.className("login_main"));
 	    popup1.click();
-	    
   }
+  
    
   
       @Test(priority=2)
 	    public void verifylgoinFuntionality() throws Exception
 	    {
-    	  
-    	  
     	  reader = new CSVReader(new FileReader(CSV_file));
     	  
     	  String[] cell;
@@ -68,10 +66,11 @@ public void OpenBrowser() throws Exception
   		  String title=driver.getTitle();
   		  System.out.printf("The Page Title is:" + title);
   		  Assert.assertEquals(title, "Admin - Attendance System");
+  		  //Assert.assertEquals(actual, expected);
   		  
-  		driver.navigate().back();;
+  		//driver.navigate().back();;
     		 
-    		  
+    		 
     		  }	    
   		   }
 	    
