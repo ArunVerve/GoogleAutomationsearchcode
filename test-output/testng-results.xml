@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="54159" started-at="2019-09-17T10:53:17Z" finished-at="2019-09-17T10:54:11Z">
+  <suite name="Default suite" duration-ms="25021" started-at="2019-09-18T05:59:17Z" finished-at="2019-09-18T05:59:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="54159" started-at="2019-09-17T10:53:17Z" finished-at="2019-09-17T10:54:11Z">
-      <class name="testngsession.TestNGBasics">
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:testngsession.TestNGBasics@6b57696f]" name="OpenBrowser" is-config="true" duration-ms="10394" started-at="2019-09-17T10:53:17Z" finished-at="2019-09-17T10:53:27Z">
+    <test name="Default test" duration-ms="25021" started-at="2019-09-18T05:59:17Z" finished-at="2019-09-18T05:59:42Z">
+      <class name="Googlesearch.Search">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:Googlesearch.Search@3d921e20]" name="OpenBrowser" duration-ms="24986" started-at="2019-09-18T05:59:17Z" finished-at="2019-09-18T05:59:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="verifylgoinFuntionality()[pri:2, instance:testngsession.TestNGBasics@6b57696f]" name="verifylgoinFuntionality" duration-ms="41336" started-at="2019-09-17T10:53:27Z" finished-at="2019-09-17T10:54:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifylgoinFuntionality -->
-        <test-method status="PASS" signature="Driverclose()[pri:0, instance:testngsession.TestNGBasics@6b57696f]" name="Driverclose" is-config="true" duration-ms="2397" started-at="2019-09-17T10:54:08Z" finished-at="2019-09-17T10:54:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Driverclose -->
-      </class> <!-- testngsession.TestNGBasics -->
+      </class> <!-- Googlesearch.Search -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
