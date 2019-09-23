@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25021" started-at="2019-09-18T05:59:17Z" finished-at="2019-09-18T05:59:42Z">
+  <suite name="Default suite" duration-ms="57042" started-at="2019-09-23T11:55:10Z" finished-at="2019-09-23T11:56:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25021" started-at="2019-09-18T05:59:17Z" finished-at="2019-09-18T05:59:42Z">
+    <test name="Default test" duration-ms="57042" started-at="2019-09-23T11:55:10Z" finished-at="2019-09-23T11:56:07Z">
       <class name="Googlesearch.Search">
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:Googlesearch.Search@3d921e20]" name="OpenBrowser" duration-ms="24986" started-at="2019-09-18T05:59:17Z" finished-at="2019-09-18T05:59:42Z">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:Googlesearch.Search@3d921e20]" name="OpenBrowser" duration-ms="57006" started-at="2019-09-23T11:55:10Z" finished-at="2019-09-23T11:56:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->

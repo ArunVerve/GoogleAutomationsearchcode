@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngsession.TestNGBasics">
+      <class name="Googlesearch.Search">
         <methods>
-          <include name="verifylgoinFuntionality"/>
-          <include name="Driverclose"/>
           <include name="OpenBrowser"/>
         </methods>
-      </class> <!-- testngsession.TestNGBasics -->
+      </class> <!-- Googlesearch.Search -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
